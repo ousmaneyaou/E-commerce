@@ -157,7 +157,7 @@ let allProduct = [
   {
     id: 15,
     name: "Téléphone",
-    category: "telephone",
+    category: "NewCollection",
     image: T7,
     newPrice: 50.0,
     oldPrice: 60.0
@@ -205,7 +205,7 @@ let allProduct = [
   {
     id: 21,
     name: "Écouteur",
-    category: "ecouteur",
+    category: "NewCollection",
     image: E3,
     newPrice: 2.0,
     oldPrice: 3.0
@@ -229,7 +229,7 @@ let allProduct = [
   {
     id: 24,
     name: "Samsung",
-    category: "telephone",
+    category: "NewCollection",
     image: S3,
     newPrice: 100.0,
     oldPrice: 130.0
@@ -269,7 +269,7 @@ let allProduct = [
   {
     id: 29,
     name: "Montre",
-    category: "montre",
+    category: "NewCollection",
     image: W5,
     newPrice: 150.0,
     oldPrice: 180.0
@@ -316,7 +316,7 @@ let allProduct = [
   {
     id: 34,
     name: "Iphone",
-    category: "telephone",
+    category: "NewCollection",
     image: I4,
     newPrice: 600.0,
     oldPrice: 700.0
@@ -340,7 +340,7 @@ let allProduct = [
   {
     id: 37,
     name: "Tablette",
-    category: "tablette",
+    category: "NewCollection",
     image: TB1,
     newPrice: 200.0,
     oldPrice: 250.0

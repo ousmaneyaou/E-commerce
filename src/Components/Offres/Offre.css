@@ -1,0 +1,50 @@
+/* Offre.css */
+.offres {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background: linear-gradient(180deg, #e7e9fe, #e8faed22 60%);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.offres-left {
+    max-width: 50%;
+}
+
+.offres-left h1 {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 3em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.offres-left p {
+    font-size: 1.2em;
+    color: #666;
+    margin: 20px 0;
+}
+
+.offres-left button {
+    padding: 15px 30px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff4500;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.offres-left button:hover {
+    background-color: #e03e00;
+    transform: scale(1.05);
+}
+
+.offres-right img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}

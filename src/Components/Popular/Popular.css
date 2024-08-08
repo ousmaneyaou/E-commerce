@@ -1,0 +1,74 @@
+/* Popular.css */
+.popular {
+    background: linear-gradient(135deg, #f9f9f9, #ffffff);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .popular h1 {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .popular hr {
+    width: 50%;
+    border: 0;
+    border-top: 2px solid #ddd;
+    margin: 20px auto;
+  }
+  
+  .popular-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .article {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 210px;
+  }
+  
+  .article:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  .article img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .article p {
+    font-size: 1.2em;
+    color: #666;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .prix-article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .article-new-prix {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ff4500;
+  }
+  
+  .article-all-prix {
+    font-size: 1em;
+    text-decoration: line-through;
+    color: #bbb;
+  }
+  

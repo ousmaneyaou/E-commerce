@@ -1,0 +1,93 @@
+/* Login.css */
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #dadeff, #e1ffea22 60%);
+  }
+  
+  .loginsignup-container {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .loginsignup-container h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .loginsignup-fields input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+    transition: border-color 0.3s;
+  }
+  
+  .loginsignup-fields input:focus {
+    border-color: #6183ff;
+  }
+  
+  .loginsignup-container button {
+    width: 100%;
+    padding: 15px;
+    background-color: #4982fc;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .loginsignup-container button:hover {
+    background-color: #021ffd;
+  }
+  
+  .loginsignup-login {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #555;
+  }
+  
+  .loginsignup-login samp {
+    font-weight: bold;
+    color: #3660ec;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .loginsignup-login samp:hover {
+    color: #2a00fb;
+  }
+  
+  .loginsignup-agree {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+  }
+  
+  .loginsignup-agree input {
+    margin-right: 10px;
+    margin-top: 3px;
+    accent-color: #1a0beb;
+  }
+  
+  .loginsignup-agree p {
+    margin: 0;
+  }
+  

@@ -1,11 +1,13 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import './Navbar.css'
 import logo from '../Assets/logo.jpg'
 import icon from '../Assets/panier.png'
 import { Link } from 'react-router-dom'
+import { ShopContext } from '../../Context/ShopContext'
 
 
 const Navbar = () => {
+  const {getTotalCartItems} = useContext(ShopContext)
     //pour faire defiler le trait au clique
     const [menu, setMenu] = useState("shop")
 
@@ -27,7 +29,7 @@ const Navbar = () => {
       <div className="nav-login-cart">
         <Link to='login'><button>Connexion</button></Link>
         <Link to='cart'><img src={icon} alt="" /></Link>
-        <div className="nav-cart-count">0</div>
+        <div className="nav-cart-count">{getTotalCartItems()}</div>
       </div>
     </div>
   )

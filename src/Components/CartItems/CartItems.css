@@ -1,0 +1,132 @@
+/* CartItems.css */
+
+.cartItems {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cartitemc-format-main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cartitems-format {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.cartitems-product-icon {
+    width: 90px !important;
+    height: 80px !important;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.cartitems-product-icon:hover {
+    transform: scale(1.1);
+}
+
+.cartitems-quantity {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 1em;
+    cursor: default;
+}
+
+.cartitems-quantity:focus {
+    outline: none;
+}
+
+.cartitems-format p {
+    margin: 0;
+    font-size: 1em;
+    color: #555;
+}
+
+.cartitems-format img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.cartitems-format img:hover {
+    opacity: 0.7;
+}
+
+
+.cartitems down {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .cartitems-total {
+    flex: 2;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cartitems-total-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .cartitems-promocode {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cartitems-promobox {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .cartitems-promobox input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .cartitems-promobox button {
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: #ffffff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .cartitems-promobox button:hover {
+    background-color: #2ecc71;
+  }
+  
+  hr {
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid #e0e0e0;
+  }

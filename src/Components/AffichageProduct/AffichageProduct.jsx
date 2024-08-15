@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './AffichageProduct.css'
+import { ShopContext } from '../../Context/ShopContext'
 // import staricon from '../Assets/starvide.webp'
 // import stardullicon from '../Assets/startdullicon.png'
 
 const AffichageProduct = ({product}) => {
+    const {addToCart} = useContext(ShopContext)
+    // const {removeFromCart} = useContext(ShopContext)
   return (
     <div className='affichageProduct'>
       <div className="affichageProduct-left">
@@ -49,7 +52,7 @@ const AffichageProduct = ({product}) => {
                     <div>Tres chers</div>
                 </div>
             </div>
-            <button>Ajouter au panier</button>
+            <button onClick={() => {addToCart(product.id)}}>Ajouter au panier</button>
             <p className='affichageProduct-rigth-category'><span>Categorie : </span>{product.category}</p>
             <p className='affichageProduct-rigth-category'><span>tags  : </span>Top, modele</p>
         </div>
